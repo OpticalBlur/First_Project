@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: block;
+    max-width: 100%;
+    width: 1180px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 120px;
+    background-color: #fff;
+}
+
+.header__logo {
+
+}
+
+.header__menu {
+    display: flex;
+}
+
+.nav {
+    margin-right: 28px;
+}
+
+.nav__list {
+    display: flex;
+    padding: 0;
+}
+
+.nav-list__item {
+    margin-right: 45px;
+    list-style: none;
+}
+
+.nav-list__item:last-child {
+    margin: 0;
+}
