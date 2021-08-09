@@ -21,12 +21,13 @@
     display: flex;
     align-items: center;
     font-size: 25px;
-    
+    font-weight: 700;
 }
 
 .header__menu {
     display: flex;
     align-items: center;
+
 }
 
 .nav {
@@ -36,6 +37,8 @@
 .nav__list {
     display: flex;
     padding: 0;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .nav-list__item {
@@ -45,4 +48,25 @@
 
 .nav-list__item:last-child {
     margin: 0;
+}
+
+.nav-list__item:hover {
+    border-bottom: 2px solid #000;
+}
+
+.nav-list__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.header__search {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/img/icons/search.svg");
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+    border: 0;
+    outline: 0;
 }
