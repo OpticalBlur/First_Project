@@ -18,11 +18,15 @@
 }
 
 .header__logo {
-
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
 }
 
 .header__menu {
     display: flex;
+    align-items: center;
 }
 
 .nav {
