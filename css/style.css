@@ -33,6 +33,14 @@
     text-align: center;
 }
 
+.section_buttons {
+    border: 3px solid #00897b;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
 /* Global end */
 
 .header {
