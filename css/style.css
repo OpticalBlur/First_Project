@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    color: #212121;
+}
+
 /* Global */
 
 .container {
@@ -19,7 +23,6 @@
     margin: 0;
     font-size: 30px;
     font-weight: 700;
-    color: #212121;
     text-align: center;
 }
 
@@ -29,12 +32,16 @@
     max-width: 635px;
     font-size: 15px;
     font-weight: normal;
-    color: #3b3b3b;
     text-align: center;
 }
 
-.section_buttons {
-    border: 3px solid #00897b;
+.section__content {
+    margin-top: 120px;
+}
+
+.button {
+    border: 2px solid #fff;
+    font-size: 20px;
     color: #212121;
     text-decoration: none;
     text-transform: uppercase;
@@ -174,3 +181,36 @@
 
 /* About */
 
+.about__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 265px;
+    text-align: center;
+}
+
+.about-card__img {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.about-card__title {
+    margin: 25px 0 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-card__content {
+    margin: 20px 0 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* Services */
+
+.services__wrapper {
+    background-color: #e4fdf9;
+}
