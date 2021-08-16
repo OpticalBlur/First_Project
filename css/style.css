@@ -338,7 +338,7 @@ body {
     background-color: rgb(0,0,0,.3);
 }
 
-.works-cards:hover .works-card__hover {
+.works-card:hover .works-card__hover {
     opacity: 1;
 }
 
