@@ -342,40 +342,110 @@ body {
     opacity: 1;
 }
 
-/* .works__button {
-    width: 180px;
-    margin-top: 110px;
-    margin-right: 20px;
-    padding: 18px 23px;
-    border: 2px solid #00897b;
-    color: #212121;
-    transition: .1s linear;
-}
 
-.works__button:first-child {
+.works-button__more {
+    display: block;
+    padding: 27px 65px;
+    margin: 120px auto 0;
     border: 2px solid #00897b;
-    width: 100px;
-}
-
-.works__button:hover {
     background-color: #00897b;
     color: #fff;
+    font-weight: 700;
+    transition: .3s linear;
 }
 
-.works__cards {
+.works-button__more:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+/* Pricing Plan */
+
+.pricing__wrapper {
+    background-color: #f1f1f1;
+}
+
+.pricing-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.works-card__img {
-    margin-top: 115px;
+.pricing-card {
     width: 370px;
 }
 
-.works-button__footer {
-    display: flex;
-    align-self: center;
-    margin-top: 120px;
+.pricing-card__header {
+    padding: 45px 0;
+    text-align: center;
+    background-color: #3949ab;
+    color: #fff;
+}
+
+.pricing-card__title {
+    margin: 0;
+    font-size: 25px;
+}
+
+.pricing-card__text {
+    margin: 35px 0 0;
+    font-size: 17px;
+}
+
+.pricing-card__text sup {
+    font-size: 25px;
+}
+
+.pricing-card__text span {
+    font-size: 50px;
+}
+
+.pricing-card__content {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.pricing-card__list {
+    max-width: 180px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.pricing-card-list__item {
+    padding-bottom: 14px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom: 1px solid #bfbfbf;;
+}
+
+.pricing-card__button {
+    display: block;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    transition: .3s linear;
+}
+
+.pricing-card__button:hover {
+    background-color: #00897b;
     border: 2px solid #00897b;
-} */
+    color: #fff;
+}
+
+.pricing-card.highlite {
+    box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.59);
+}
+
+.highlite-btn {
+    border: 2px solid #00897b;
+    background-color: #00897b;
+    color: #fff;
+}
+
+.highlite-btn:hover {
+    background-color: transparent;
+    color: #000;
+}
