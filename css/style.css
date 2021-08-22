@@ -472,10 +472,35 @@ body {
 }
 
 .team-card__name {
+    margin-bottom: 0;
     font-size: 20px;
     font-weight: 600;
 }
 
 .team-card__position {
     font-size: 15px;
+    margin: 15px 0 0;
+}
+
+.team-card__links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-card__link {
+    margin-top: 30px;
+    width: 50px;
+    background-color: #f0f1f1;
+    border-radius: 15px;
+}
+
+.team-card__link img {
+    height: 50px;
+    padding: 17px 10px;
+    object-fit: contain;
+}
+
+.fb__blue {
+    background-color: #3949ab;
+    border-radius: 15px;
 }
