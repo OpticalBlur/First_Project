@@ -638,7 +638,93 @@ body {
     color: #fff;
 }
 
+.contact__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
 
+.contact-card {
+    width: 265px;
+    text-align: center;
+}
+
+.contact-card a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-card__img {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.contact-card__content {
+    margin: 20px 0 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.form-submit {
+    margin-top: 80px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.input {
+    padding: 35px;
+    width: 48%;
+    border-radius: 15px;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.input-name {
+    margin-right: 41px;
+}
+
+.textarea {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+}
+
+.textarea::placeholder {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0 0 20px;
+}
+
+.btn-form {
+    margin-top: 38px;
+    padding: 25px 80px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: .2s linear;
+}
+
+.btn-form:hover {
+    color: #fff;
+    background-color: #00897b;
+}
 
 /* Footer */
 
