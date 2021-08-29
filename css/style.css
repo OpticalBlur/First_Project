@@ -14,6 +14,7 @@ body {
     max-width: 100%;
     width: 1180px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .section__wrapper {
@@ -87,7 +88,10 @@ body {
 .nav-list__item {
     margin-right: 45px;
     list-style: none;
+    border-bottom: 2px solid transparent;
 }
+
+
 
 .nav-list__item:last-child {
     margin: 0;
@@ -113,6 +117,21 @@ body {
     border: 0;
     outline: 0;
 }
+
+.burger-menu__btn {
+    display: none;
+    padding: 0;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.burger-menu__btn img {
+    width: 100%;
+}
+
 
 /* Main-banner */
 
@@ -544,6 +563,7 @@ body {
 
 .blog__wrapper {
     background-color: #e4fdf9;
+    display: none;
 }
 
 .blog-item {
@@ -641,7 +661,10 @@ body {
 .contact__cards {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    max-width: 955px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-card {
@@ -676,8 +699,9 @@ body {
 .form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     align-items: center;
-    width: 1030px;
+    max-width: 1030px;
     margin: 0 auto;
 }
 
@@ -686,9 +710,7 @@ body {
     width: 48%;
     border-radius: 15px;
     outline: none;
-}
-
-.input::placeholder {
+    border: none;
     color: #4d4d4d;
     font-weight: 500;
     font-size: 20px;
@@ -703,9 +725,7 @@ body {
     width: 100%;
     border-radius: 15px;
     outline: none;
-}
-
-.textarea::placeholder {
+    border: none;
     color: #4d4d4d;
     font-weight: 500;
     font-size: 20px;
@@ -713,6 +733,7 @@ body {
 }
 
 .btn-form {
+    border: none;
     margin-top: 38px;
     padding: 25px 80px;
     font-size: 20px;
@@ -724,6 +745,7 @@ body {
 .btn-form:hover {
     color: #fff;
     background-color: #00897b;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -731,4 +753,75 @@ body {
 .footer {
     padding: 20px 0;
     text-align: center;
+}
+
+@media (max-width: 991px) {
+    .nav-list__item {
+        margin-right: 20px;
+    }
+
+    .main-banner__title {
+        font-size: 45px;
+    }
+
+    .about__cards {
+        justify-content: center;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .burger-menu__btn {
+        display: block;
+    }
+
+    .main-banner__subtitle {
+        font-size: 20px;
+    }
+
+    .about__cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-card {
+        margin-top: 15px;
+    }
+
+    .services__cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-banner__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-banner__button {
+        font-size: 15px;
+    }
+
+    .main-banner__button:first-child {
+        margin: 15px 0;
+    }
+
+    .main-banner__title {
+        font-size: 30px;
+    }
+
+    .main-banner__subtitle {
+        font-size: 18px;
+    }
+
+    .about-card {
+        margin-top: 15px;
+    }
 }
